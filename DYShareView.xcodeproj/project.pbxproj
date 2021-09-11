@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		501303EB26EC96A200CB63AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 501303EA26EC96A200CB63AF /* AppDelegate.m */; };
+		501303EE26EC96A200CB63AF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 501303ED26EC96A200CB63AF /* SceneDelegate.m */; };
+		501303F126EC96A200CB63AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 501303F026EC96A200CB63AF /* ViewController.m */; };
+		501303F426EC96A200CB63AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501303F226EC96A200CB63AF /* Main.storyboard */; };
+		501303F626EC96A500CB63AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 501303F526EC96A500CB63AF /* Assets.xcassets */; };
+		501303F926EC96A500CB63AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 501303F726EC96A500CB63AF /* LaunchScreen.storyboard */; };
+		501303FC26EC96A500CB63AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 501303FB26EC96A500CB63AF /* main.m */; };
+		5013040526EC96B900CB63AF /* SharePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013040326EC96B900CB63AF /* SharePopView.m */; };
+		E21D01DC667BEE6285A53C09 /* Pods_DYShareView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCE049F0372DF29C5FECE29 /* Pods_DYShareView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A786C1D012456978DCFC434 /* Pods-DYShareView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYShareView.release.xcconfig"; path = "Target Support Files/Pods-DYShareView/Pods-DYShareView.release.xcconfig"; sourceTree = "<group>"; };
+		501303E626EC96A200CB63AF /* DYShareView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYShareView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		501303E926EC96A200CB63AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		501303EA26EC96A200CB63AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		501303EC26EC96A200CB63AF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		501303ED26EC96A200CB63AF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		501303EF26EC96A200CB63AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		501303F026EC96A200CB63AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		501303F326EC96A200CB63AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		501303F526EC96A500CB63AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		501303F826EC96A500CB63AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		501303FA26EC96A500CB63AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		501303FB26EC96A500CB63AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5013040326EC96B900CB63AF /* SharePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharePopView.m; sourceTree = "<group>"; };
+		5013040426EC96B900CB63AF /* SharePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharePopView.h; sourceTree = "<group>"; };
+		86689FCDB7438AD88E56CB76 /* Pods-DYShareView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYShareView.debug.xcconfig"; path = "Target Support Files/Pods-DYShareView/Pods-DYShareView.debug.xcconfig"; sourceTree = "<group>"; };
+		ABCE049F0372DF29C5FECE29 /* Pods_DYShareView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYShareView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		501303E326EC96A200CB63AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21D01DC667BEE6285A53C09 /* Pods_DYShareView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		501303DD26EC96A200CB63AF = {
+			isa = PBXGroup;
+			children = (
+				501303E826EC96A200CB63AF /* DYShareView */,
+				501303E726EC96A200CB63AF /* Products */,
+				B92D628698B39955A992C111 /* Pods */,
+				F205947E71425F38B0541773 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		501303E726EC96A200CB63AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				501303E626EC96A200CB63AF /* DYShareView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		501303E826EC96A200CB63AF /* DYShareView */ = {
+			isa = PBXGroup;
+			children = (
+				501303E926EC96A200CB63AF /* AppDelegate.h */,
+				501303EA26EC96A200CB63AF /* AppDelegate.m */,
+				501303EC26EC96A200CB63AF /* SceneDelegate.h */,
+				501303ED26EC96A200CB63AF /* SceneDelegate.m */,
+				5013040426EC96B900CB63AF /* SharePopView.h */,
+				5013040326EC96B900CB63AF /* SharePopView.m */,
+				501303EF26EC96A200CB63AF /* ViewController.h */,
+				501303F026EC96A200CB63AF /* ViewController.m */,
+				501303F226EC96A200CB63AF /* Main.storyboard */,
+				501303F526EC96A500CB63AF /* Assets.xcassets */,
+				501303F726EC96A500CB63AF /* LaunchScreen.storyboard */,
+				501303FA26EC96A500CB63AF /* Info.plist */,
+				501303FB26EC96A500CB63AF /* main.m */,
+			);
+			path = DYShareView;
+			sourceTree = "<group>";
+		};
+		B92D628698B39955A992C111 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86689FCDB7438AD88E56CB76 /* Pods-DYShareView.debug.xcconfig */,
+				4A786C1D012456978DCFC434 /* Pods-DYShareView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F205947E71425F38B0541773 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE049F0372DF29C5FECE29 /* Pods_DYShareView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		501303E526EC96A200CB63AF /* DYShareView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 501303FF26EC96A500CB63AF /* Build configuration list for PBXNativeTarget "DYShareView" */;
+			buildPhases = (
+				39B69F84D7F6729799E77180 /* [CP] Check Pods Manifest.lock */,
+				501303E226EC96A200CB63AF /* Sources */,
+				501303E326EC96A200CB63AF /* Frameworks */,
+				501303E426EC96A200CB63AF /* Resources */,
+				6B365B9EA15946234E670ED4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYShareView;
+			productName = DYShareView;
+			productReference = 501303E626EC96A200CB63AF /* DYShareView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		501303DE26EC96A200CB63AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					501303E526EC96A200CB63AF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 501303E126EC96A200CB63AF /* Build configuration list for PBXProject "DYShareView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 501303DD26EC96A200CB63AF;
+			productRefGroup = 501303E726EC96A200CB63AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				501303E526EC96A200CB63AF /* DYShareView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		501303E426EC96A200CB63AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501303F926EC96A500CB63AF /* LaunchScreen.storyboard in Resources */,
+				501303F626EC96A500CB63AF /* Assets.xcassets in Resources */,
+				501303F426EC96A200CB63AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39B69F84D7F6729799E77180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DYShareView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B365B9EA15946234E670ED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYShareView/Pods-DYShareView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DYShareView/Pods-DYShareView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DYShareView/Pods-DYShareView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		501303E226EC96A200CB63AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501303F126EC96A200CB63AF /* ViewController.m in Sources */,
+				5013040526EC96B900CB63AF /* SharePopView.m in Sources */,
+				501303EB26EC96A200CB63AF /* AppDelegate.m in Sources */,
+				501303FC26EC96A500CB63AF /* main.m in Sources */,
+				501303EE26EC96A200CB63AF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		501303F226EC96A200CB63AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501303F326EC96A200CB63AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		501303F726EC96A500CB63AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501303F826EC96A500CB63AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		501303FD26EC96A500CB63AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		501303FE26EC96A500CB63AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5013040026EC96A500CB63AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86689FCDB7438AD88E56CB76 /* Pods-DYShareView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SN6MV9Q5H;
+				INFOPLIST_FILE = DYShareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYW.DYShareView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5013040126EC96A500CB63AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A786C1D012456978DCFC434 /* Pods-DYShareView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SN6MV9Q5H;
+				INFOPLIST_FILE = DYShareView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LYW.DYShareView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		501303E126EC96A200CB63AF /* Build configuration list for PBXProject "DYShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				501303FD26EC96A500CB63AF /* Debug */,
+				501303FE26EC96A500CB63AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		501303FF26EC96A500CB63AF /* Build configuration list for PBXNativeTarget "DYShareView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5013040026EC96A500CB63AF /* Debug */,
+				5013040126EC96A500CB63AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 501303DE26EC96A200CB63AF /* Project object */;
+}
